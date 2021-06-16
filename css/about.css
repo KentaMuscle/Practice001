@@ -1,0 +1,45 @@
+.about{
+	margin-top: 80px;
+}
+
+.titleHeader{
+	text-align: center;
+}
+
+.titleHeader__content{
+	display: inline-block;
+	font-size: 35px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	margin: 0;
+}
+
+.aboutContent{
+	margin-top: 60px;
+}
+
+.aboutContentHeader{
+	margin-right: 30px;
+	padding-top: 7px;
+}
+.aboutContentHeader__img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.aboutContent{
+	padding: 0 30%;
+	display: flex;
+	vertical-align: middle;
+}
+
+
+.aboutContentBody__title{
+	font-size: 17px;
+	margin: 0;
+}
+
+.aboutContentBody__content{
+	margin: 10px 0 0 0;
+}
