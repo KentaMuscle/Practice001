@@ -1,28 +1,52 @@
-.bicycle{
-	margin-top: 80px;
-	text-align: center;
+@media screen and (min-width: 601px){
+
+	.bicycle__title{
+		font-size: 35px;
+	}
+
+	.bicycle__body{
+		display: flex;
+		justify-content: center;
+	}
+
+	.bicycleItem:nth-child(2n){
+		margin: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	.bicycle__title{
+		font-size: 30px;
+	}
+
+	.bicycleItem__title{
+		display: inline-block;
+	}
+
+	.bicycleItem__caption{
+		font-size: 14px;
+	}
 }
 
 .bicycle__title{
-	display: inline-block;
-	font-size: 35px;
 	font-weight: bold;
 	border-bottom: 1px solid black;
 	margin: 0;
-}
-
-.bicycle__body{
-	display: flex;
-	justify-content: center;
-	margin-top: 60px;
-}
-
-.bicycleItem:nth-child(2n){
-	margin: 0 20px 0 20px;
+	display: inline-block;
 }
 
 .bicycleItem__image{
-	height: 200px;
+	width: 90%;
+}
+
+.bicycle{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.bicycle__body{
+	margin-top: 60px;
 }
 
 .bicycleItem__title{

@@ -14,24 +14,13 @@
 	margin: 0;
 }
 
-.aboutContent{
-	margin-top: 60px;
-}
-
 .aboutContentHeader{
-	margin-right: 30px;
 	padding-top: 7px;
 }
 .aboutContentHeader__img{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-}
-
-.aboutContent{
-	padding: 0 30%;
-	display: flex;
-	vertical-align: middle;
 }
 
 
@@ -42,4 +31,43 @@
 
 .aboutContentBody__content{
 	margin: 10px 0 0 0;
+}
+
+@media screen and (min-width: 601px){
+	.aboutContent{
+		padding: 0 6%;
+		margin-top: 60px;
+		display: flex;
+		vertical-align: middle;
+
+	}
+
+	.aboutContentHeader{
+		margin-right: 30px;
+	}
+
+	.aboutContentBody__title{
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.aboutContent{
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.aboutContentBody__title{
+		text-align: left;
+	}
+
+	.aboutContentBody__content{
+		text-align: left;
+		font-size: 14px;
+	}
+
+	.aboutContentBody__inner{
+		margin-left: 15%;
+	}
+
 }

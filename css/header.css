@@ -2,12 +2,6 @@
 	width: 100%;
 }
 
-.header__inner{
-	display: flex;
-	justify-content: space-between;
-	padding: 0px 20%;
-}
-
 .logo{
 	width: 130px;
 	height: 50px;
@@ -26,4 +20,21 @@
 	text-decoration: none;
 	color: black;
 	font-size: 14px;
+}
+
+@media screen and (min-width: 601px){
+	.header__inner{
+		padding: 0px 20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.header__inner{
+		padding: 0 3%;
+	}
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
 }
